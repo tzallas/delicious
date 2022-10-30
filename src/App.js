@@ -1,9 +1,10 @@
 import Pages from "./pages/Pages";
+import Category from "./components/Category";
 
 function App() {
   return (
     <div >
-      <h1>Delicious</h1>
+      <Category />
       <Pages />
     </div>
   );
